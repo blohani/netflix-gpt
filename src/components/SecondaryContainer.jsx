@@ -1,5 +1,6 @@
 import React from "react";
 import MovieList from "./MovieList";
+import movieSlice from "../utils/movieSlice";
 import { useSelector } from "react-redux";
 
 const SecondaryContainer = () => {
